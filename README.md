@@ -1,2 +1,2 @@
 # RetailerSystem
-Link: (https://elvis.rowan.edu/~jiangs1)
+Link to project: (elvis.rowan.edu/~jiangs1)
