@@ -1,0 +1,69 @@
+hr {
+    width: 70%;
+    height: 8px;
+    margin-left: 15.5%;
+    margin-right: auto;
+    background-color:#666;
+    border: 0 none;
+    margin-top: 2%;
+}
+
+h1 {
+    font-size: 450%;
+    font-weight: bolder;
+    margin-top: 1%;
+    margin-bottom: 0;
+    margin-left: 25%;
+    color: purple;
+}
+
+button {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.logout1 {
+    background-color: darkorange;
+    float: left;
+    margin-left: 2%;
+    padding: 10px 24px;
+}
+
+/**
+individual product name
+*/
+body {
+    background:#c9f3df none repeat scroll 0 0;
+    color: #000;
+    font-family: "Raleway",sans-serif;
+    font-size: 100%;
+    line-height: 24px;
+    margin: 0;
+    padding:0;
+    overflow: scroll;
+}
+
+img.shoppingcart {
+    height: 110px;
+    width: 100px;
+    float: right;
+    margin-right: -1330%;
+    margin-top: -100%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform 1.1s ease-in-out;
+}
+
+img.shoppingcart:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}

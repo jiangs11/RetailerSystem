@@ -1,0 +1,60 @@
+table {
+    margin-left: 28%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    font-size: 24px;
+    text-align: left;
+    padding: 8px;
+    width: 40%;
+}
+
+body {
+    background:#c9f3df none repeat scroll 0 0;
+    color: #000;
+    font-family: "Raleway",sans-serif;
+    font-size: 100%;
+    line-height: 24px;
+    margin: 0;
+    padding:0;
+    overflow: scroll;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+    color: slateblue;
+    margin-top: -4%;
+}
+
+button {
+    color: white;
+    background: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.buttGroup button {
+    display: block;
+    padding: 10px 24px;
+    margin-left: 2%;
+}
+
+.logout2 {
+    background-color: darkorange;
+}
+
+.back {
+    background-color: green;
+    font-size: 24px;
+}

@@ -1,0 +1,130 @@
+/*body {
+    background: #393939;
+    color: white;
+    font: 14px Helvetica, sans-serif;
+}*/
+
+/*#page-wrap {
+    width: 500px;
+    margin: 100px auto;
+}
+
+h1 {
+    font: 26px Georgia, Serif;
+    margin: 0 0 10px 0;
+}*/
+
+form {
+    margin: 50px 0 0 0;
+}
+
+label {
+    font: bold 20px Helvetica, sans-serif;
+    display: block;
+    float: left;
+    text-align: right;
+    padding: 5px 10px 0 0;
+    width: 140px;
+}
+
+input[type=text] {
+    float: right;
+    width: 80px;
+    font: bold 20px Helvetica, sans-serif;
+    padding: 3px 0 0 0;
+    text-align: center;
+}
+
+form div {
+    overflow: hidden;
+    margin-left: 50%;
+}
+
+.button {
+    margin: 0 0 0 5px;
+    text-indent: -9999px;
+    cursor: pointer;
+    width: 29px;
+    height: 29px;
+    float: left;
+    text-align: center;
+    background: url(assets/buttons.png) no-repeat;
+}
+
+.dec {
+    background-position: 0 -29px;
+}
+
+.buttons {
+    padding: 20px 0 0 140px;
+}
+
+/* -- quantity box -- */
+
+.quantity {
+    display: inline-block;
+    margin-left: 50%;
+    margin-top: 2%;
+}
+
+.quantity .input-text.qty {
+    font-size: 20px;
+    width: 85px;
+    height: 45px;
+    padding: 0 5px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.quantity.buttons_added {
+    text-align: left;
+    position: relative;
+    white-space: nowrap;
+    vertical-align: top; 
+}
+
+.quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+}
+
+.quantity.buttons_added .minus,
+.quantity.buttons_added .plus {
+    padding: 7px 10px 8px;
+    font-size: 25px;
+    text-align: center;
+    height: 45px;
+    width: 45px;
+    background-color: white;
+    border: 1px solid black;
+    cursor:pointer;
+}
+
+.quantity.buttons_added .minus {
+    border-right: 0; 
+}
+
+.quantity.buttons_added .plus {
+    border-left: 0; 
+}
+
+.quantity.buttons_added .minus:hover,
+.quantity.buttons_added .plus:hover {
+    background: #eeeeee;
+}
+
+.quantity input::-webkit-outer-spin-button,
+.quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; 
+}
+
+.quantity.buttons_added .minus:focus,
+.quantity.buttons_added .plus:focus {
+    outline: none; 
+}
+

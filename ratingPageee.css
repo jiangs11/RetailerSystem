@@ -1,0 +1,234 @@
+img.product {
+    display: inline-block;
+    margin-left: 8%;
+    margin-top: 0%;
+    position: fixed;
+    width: 500px;
+    height: 500px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 53px;
+    color: slateblue;
+    margin-top: -6%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    color: black;
+    margin-top: 3%;
+}
+
+hr {
+    width: 70%;
+    height: 8px;
+    margin-left: 15.5%;
+    margin-right: auto;
+    background-color:#666;
+    border: 0 none;
+    margin-top: -1%;
+    margin-bottom: 4%;
+}
+
+h6 {
+    font-size: 200%;
+    font-family: 'Lucida Sans';
+    color: darkblue;
+    margin-left: 50%;
+    margin-top: -2%;
+}
+
+img.product {
+    display: block;
+    margin-left: 8%;
+    margin-top: 0%;
+    position: fixed;
+    width: 500px;
+    height: 500px;
+}
+
+body {
+    background:#c9f3df none repeat scroll 0 0;
+    color: #000;
+    font-family: "Raleway",sans-serif;
+    font-size: 100%;
+    line-height: 24px;
+    margin: 0;
+    padding:0;
+    overflow: scroll;
+}
+
+.star_rating {
+    display: inline-block;
+    unicode-bidi: bidi-override;
+    color: #888888;
+    font-size: 40px;
+    height: 25px;
+    width: auto;
+    margin: 0;
+    margin-top: -3%;
+    margin-left: 50%;
+    position: relative;
+    padding: 0;
+}
+  
+.rating-upper {
+    color: darkorchid;
+    padding: 0;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+  
+.rating-lower {
+    padding: 0;
+    display: flex;
+    z-index: 0;
+}  
+
+
+.rating {
+    align-content: center;
+    margin-top: 5%;
+    margin-left: 44%;
+    height: 400px;
+    width: 400px;
+}
+
+.rating span { 
+    float:right; 
+    position:relative;
+}
+
+.rating span input {
+    position:absolute;
+    top:0px;
+    left:0px;
+    opacity:0;
+}
+
+.rating span label {
+    display:inline-block;
+    width:60px;
+    height:60px;
+    text-align:center;
+    color:#FFF;
+    background:#ccc;
+    padding: 1px;
+    font-size:30px;
+    margin-right:2px;
+    line-height:30px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+}
+
+rate
+
+.rating span:hover ~ span label,
+.rating span:hover label,
+.rating span.checked label,
+.rating span.checked ~ span label {
+    background:#F90;
+    color:#FFF;
+}
+
+button {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    width: auto;
+    height: auto;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.buttGroup button {
+    display: block;
+    padding: 10px 24px;
+    margin-left: 2%;
+    overflow: hidden;
+}
+
+.logout2 {
+    background-color: darkorange;
+}
+
+.back {
+    background-color: green;
+}
+
+/* The container */
+.container {
+    display: block;
+    position: relative;
+    margin-top: 1%;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    margin-left: 50%;
+    cursor: pointer;
+    font-size: 24px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }

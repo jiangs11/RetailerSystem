@@ -1,0 +1,181 @@
+.image-list-small {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1170px;
+    padding: 0;
+}
+  
+.image-list-small li {
+    display: inline-block;
+    width: 181px;
+    margin: 0 12px 30px;
+}
+  
+  
+/* Photo */
+.image-list-small li > a {
+    display: block;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 210px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    border: 4px solid #ffffff;
+    outline: 1px solid #d0d0d0;
+    box-shadow: 0 2px 1px #DDD;
+}
+
+.pname {
+    display: block;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 200px;
+    padding: 0;
+    border: 4px solid #ffffff;
+    outline: 1px solid #d0d0d0;
+    box-shadow: 0 2px 1px #DDD;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.price, .count{
+    display: block;
+    text-decoration: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 45px;
+    width: 200px;
+    padding: 5px;
+    border: 2.5px solid #ffffff;
+    outline: 1px solid #d0d0d0;
+    box-shadow: 0 2px 1px #DDD;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.image-list-small .pname {
+    margin-top: 13px;
+}
+
+
+/* Title */
+
+.image-list-small .pname h3 {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 3px 0;
+    white-space: nowrap;
+    text-overflow: nowrap;
+    align-items: center;
+}
+
+.image-list-small .pname h3 a {
+    color: #303030;
+    text-decoration: none;
+}
+
+.image-list-small .pname .image-author {
+    display: block;
+    color: #717171;
+    font-size: 11px;
+    font-weight: normal;
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+article, header, section, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+a {
+    font-family: "Raleway",sans-serif;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover, a:focus {
+    color: #373e18;
+}
+
+#float-right {
+    float:right;	
+}
+
+
+/* ******************************************************
+Responsive Grids
+*********************************************************/
+
+.rt-container {
+    margin: 0 auto;
+    padding-left:12px;
+    padding-right:12px;
+}
+
+.rt-row:before, .rt-row:after {
+    display: table;
+    line-height: 0;
+    content: "";
+}
+
+.rt-row:after {
+    clear: both;
+}
+
+[class^="col-rt-"] {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    padding: 0 15px;
+    min-height: 1px;
+    position: relative;
+}
+
+
+@media (min-width: 768px) {
+    .rt-container {
+    width: 750px;
+    }
+    [class^="col-rt-"] {
+    float: left;
+    width: 49.9999999999%;
+    }
+    .col-rt-6, .col-rt-12 {
+    width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .rt-container {
+        width: 1170px;
+    }
+    .col-rt-1 {
+        width:16.6%;
+    }
+    .col-rt-2 {
+        width:30.33%;
+    }
+    .col-rt-3 {
+        width:50%;
+    }
+    .col-rt-4 {
+        width: 67.664%;
+    }
+    .col-rt-5 {
+        width: 83.33%;
+    }
+}
