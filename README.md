@@ -1,5 +1,7 @@
 # Retailer System
-## Database Final Project Extra Credit
+## Database Final Project
+
+# [Website Link: http://elvis.rowan.edu/~jiangs1/](http://elvis.rowan.edu/~jiangs1/)
 
 This website is for Database System: Theory and Programming - Spring 2020 at Rowan University.
 #### Assignment written by [Dr. Gabriela Hristescu](http://elvis.rowan.edu/~hristescu)
